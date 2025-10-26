@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+.a1{
+    color: white;
+}
+.a1:hover{
+    color: red;
+}
+
+.a2{
+    font-weight: bold;
+    text-decoration: solid;
+}
+
+.a2:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+.p1{
+    color: orange;
+    text-align: center;
+}
+
+.p2{
+    line-height: 1.8;
+    text-align: right;
+}
+
