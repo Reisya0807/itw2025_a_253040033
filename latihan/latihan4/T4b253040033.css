@@ -1,0 +1,131 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: lightgrey;
+    background-size: cover;
+    color: #000000;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 10px 40px;            
+    background-color: #EFECE3;     
+}
+
+.header h1 {
+    margin: 0;
+    color: #4A70A9;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;                  
+    gap: 20px;                      
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #4A70A9;
+    font-weight: bold;
+}
+
+.header ul li a:hover {
+    color: #8FABD4;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content {
+  width: 60%;
+}
+
+.reference {
+  width: 40%;
+  padding: 15px;
+}
+
+
+.content img {
+    background-image: url(img/spenser-sembrat-M2CHE5EDmo8-unsplash.jpg);
+    height: 350px;               
+    width: 550px;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.content h2 {
+    color: #4A70A9;  
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content p {
+    color: #000000;         
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.content p .syaa {
+    color: #8FABD4;
+    font-weight: bold;
+}
+
+.content p .tanggal {
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.content p.text {
+    text-align: justify;
+    width: 550px;
+    margin: 20px auto;
+}
+
+.reference h3 {
+    text-align: center;
+    color: #4A70A9;
+}
+
+.reference a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.reference a:hover {
+    text-decoration: underline;
+    color: #8FABD4;
+}
+
+.mpn li {
+  margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
