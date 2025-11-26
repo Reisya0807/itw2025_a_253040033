@@ -1,0 +1,25 @@
+.container {
+    width: 600px;
+    height: 150px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex; /*atau inline-flex*/
+    /*flex-direction: ; row/row-reverse/column/column-reverse*/
+    /*flex-wrap: ; nowrap/wrap/wrap-reverse*/
+    /*justify-content: ; flex-start/flex-end/center/space-between/space-around/space-evenly*/
+    /*align-items: ; flex-start/flex-end/center/stretch/baseline*/
+    /*align-content: ; flex-start/flex-end/center/space-between/space-around/space-evenly*/
+}
+
+.container div {
+    background-color: blue;
+    margin: 2px;
+    flex: 1;
+}
+
+.container div.dua {
+    flex: 2;
+    align-self: center;
+}
